@@ -15,6 +15,7 @@
 /*INICIO BODY - ELEMNTOS BASE*/
 body{
     background: var(--preto);
+    font-family: 'Arial', Times, serif;   
     /*font-family:'Times New Roman', Times, serif;*/
 }
 
@@ -32,14 +33,15 @@ header div.container a.logo{
     font-weight: 1000;
     font-size: 42px;*/
     background-image: url(../images/netflix-logo.png);
-    background-size: 182px;
-    width: 182px;
+    background-size: 100%;
+    width:20%;
     height: 70px;
     margin:2px;
     background-repeat: no-repeat;    
 }
 
 header  div.container nav a{
+    
     font-family: verdana;
     text-decoration: none;
     color: #aaa;
@@ -55,8 +57,10 @@ header div.container nav a:hover{
 /*FILME PRINCIPAL - BANNER*/
 main div.filme-capa{
     height:480px;
+    width: 100%;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../images/aquaman_34.jpg');
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +72,7 @@ main div.filme-capa{
 }
 
 main div.filme-capa div.container h3.TITULO{
-    margin-top: 20%;
+    margin-top: 20%; 
     font-size: 40px;
     color: #dbd9d9;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -104,3 +108,10 @@ main div.filme-capa div.container .descricao{
     margin-right: 5px;
 }
 
+
+.box-filme{
+
+    height:100%;
+    width: 100%;
+    display:block;
+}
