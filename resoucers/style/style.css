@@ -1,0 +1,106 @@
+/*VARIAVES*/
+:root{
+
+    /*variaveis para cores*/
+    --vermelho:#E50914;
+    --preto:#141414;
+
+}
+/*RESETAR CSS PAGINA*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*INICIO BODY - ELEMNTOS BASE*/
+body{
+    background: var(--preto);
+    /*font-family:'Times New Roman', Times, serif;*/
+}
+
+/*NAV*/
+header .container{
+    width:95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div.container a.logo{
+  /*  color: var(--vermelho);
+    font-family: verdana;
+    font-weight: 1000;
+    font-size: 42px;*/
+    background-image: url(../images/netflix-logo.png);
+    background-size: 182px;
+    width: 182px;
+    height: 70px;
+    margin:2px;
+    background-repeat: no-repeat;    
+}
+
+header  div.container nav a{
+    font-family: verdana;
+    text-decoration: none;
+    color: #aaa;
+    margin-left: 10px;
+    margin:4px;
+   
+}
+
+header div.container nav a:hover{
+    color:#fff;
+}
+
+/*FILME PRINCIPAL - BANNER*/
+main div.filme-capa{
+    height:480px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../images/aquaman_34.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-capa .container{
+    width:70%;
+}
+
+main div.filme-capa div.container h3.TITULO{
+    margin-top: 20%;
+    font-size: 40px;
+    color: #dbd9d9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main div.filme-capa div.container .descricao{
+    margin-top: 1%;
+    color: #dbd9d9;
+    font-family: arial;
+}
+
+.filme-capa .botoes{
+    margin-top: 50px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    /*border: none;*/
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    border: none;  
+    transition: .6s ease all;
+}
+
+.botao:hover{
+    background-color: #dbd9d9;
+    color:black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
