@@ -14,6 +14,7 @@
 }
 /*INICIO BODY - ELEMNTOS BASE*/
 body{
+    height: 100vh;
     background: var(--preto);
     font-family: 'Arial', Times, serif;   
     /*font-family:'Times New Roman', Times, serif;*/
@@ -21,6 +22,7 @@ body{
 
 /*NAV*/
 header .container{
+    height: 12vh;
     width:95%;
     display: flex;
     align-items: center;
@@ -32,12 +34,15 @@ header div.container a.logo{
     font-family: verdana;
     font-weight: 1000;
     font-size: 42px;*/
+
     background-image: url(../images/netflix-logo.png);
     background-size: 100%;
     width:20%;
-    height: 70px;
+    height:100%;
     margin:2px;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;  
+    
+    
 }
 
 header  div.container nav a{

@@ -1,3 +1,31 @@
+
+@media (min-width:1366px){
+    header  div.container nav a{
+        font-size:20px;
+        margin-left: 10px;
+    }
+
+    main div.filme-capa{
+        height: 100vh;
+    }
+
+    .main div.filme-capa div.container h3.TITULO{
+            font-size: 40px;
+           
+          }
+      
+    .container .descricao{
+              width: 80%;
+              font-size: 30px;
+          }
+
+    .botao{font-size: 30px;
+     
+          }
+
+}
+
+
 @media screen and (max-width:540px){
 
 
